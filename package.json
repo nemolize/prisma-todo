@@ -6,7 +6,6 @@
   "repository": "git@github.com:nemolize/prisma-todo.git",
   "author": "nemolize <nemolize@users.noreply.github.com>",
   "license": "MIT",
-  "packageManager": "yarn@3.2.2",
   "devDependencies": {
     "@types/node": "^18.6.1",
     "prettier": "^2.7.1",
