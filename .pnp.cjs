@@ -34,6 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@types/node", "npm:18.6.1"],\
+            ["prettier", "npm:2.7.1"],\
             ["ts-node", "virtual:c2401b240619d9744e97d0a59b9020620867070891fe5dc8818ffe92f4f0d61858fc48242fb7e939c89f9e2d44bfb90b2308eabcf21c2026ae2ae78890dd0415#npm:10.9.1"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"]\
           ],\
@@ -178,12 +179,22 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["prettier", [\
+        ["npm:2.7.1", {\
+          "packageLocation": "./.yarn/cache/prettier-npm-2.7.1-d1f40f5e1a-55a4409182.zip/node_modules/prettier/",\
+          "packageDependencies": [\
+            ["prettier", "npm:2.7.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["prisma-todo", [\
         ["workspace:.", {\
           "packageLocation": "./",\
           "packageDependencies": [\
             ["prisma-todo", "workspace:."],\
             ["@types/node", "npm:18.6.1"],\
+            ["prettier", "npm:2.7.1"],\
             ["ts-node", "virtual:c2401b240619d9744e97d0a59b9020620867070891fe5dc8818ffe92f4f0d61858fc48242fb7e939c89f9e2d44bfb90b2308eabcf21c2026ae2ae78890dd0415#npm:10.9.1"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"]\
           ],\
