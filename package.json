@@ -1,0 +1,9 @@
+{
+  "name": "prisma-todo",
+  "version": "1.0.0",
+  "description": "Prisma Todo Example",
+  "main": "index.js",
+  "repository": "git@github.com:nemolize/prisma-todo.git",
+  "author": "nemolize <nemolize@users.noreply.github.com>",
+  "license": "MIT"
+}
