@@ -35,6 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@types/node", "npm:18.6.1"],\
             ["prettier", "npm:2.7.1"],\
+            ["prisma", "npm:4.1.0"],\
             ["ts-node", "virtual:c2401b240619d9744e97d0a59b9020620867070891fe5dc8818ffe92f4f0d61858fc48242fb7e939c89f9e2d44bfb90b2308eabcf21c2026ae2ae78890dd0415#npm:10.9.1"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"]\
           ],\
@@ -76,6 +77,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@jridgewell/trace-mapping", "npm:0.3.9"],\
             ["@jridgewell/resolve-uri", "npm:3.1.0"],\
             ["@jridgewell/sourcemap-codec", "npm:1.4.14"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@prisma/engines", [\
+        ["npm:4.1.0", {\
+          "packageLocation": "./.yarn/unplugged/@prisma-engines-npm-4.1.0-038b6cb787/node_modules/@prisma/engines/",\
+          "packageDependencies": [\
+            ["@prisma/engines", "npm:4.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -188,6 +198,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["prisma", [\
+        ["npm:4.1.0", {\
+          "packageLocation": "./.yarn/unplugged/prisma-npm-4.1.0-e55511e8c9/node_modules/prisma/",\
+          "packageDependencies": [\
+            ["prisma", "npm:4.1.0"],\
+            ["@prisma/engines", "npm:4.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["prisma-todo", [\
         ["workspace:.", {\
           "packageLocation": "./",\
@@ -195,6 +215,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prisma-todo", "workspace:."],\
             ["@types/node", "npm:18.6.1"],\
             ["prettier", "npm:2.7.1"],\
+            ["prisma", "npm:4.1.0"],\
             ["ts-node", "virtual:c2401b240619d9744e97d0a59b9020620867070891fe5dc8818ffe92f4f0d61858fc48242fb7e939c89f9e2d44bfb90b2308eabcf21c2026ae2ae78890dd0415#npm:10.9.1"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"]\
           ],\
