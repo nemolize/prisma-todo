@@ -38,9 +38,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/client@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "@prisma/client@npm:4.1.0"
+"@prisma/client@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "@prisma/client@npm:4.1.1"
   dependencies:
     "@prisma/engines-version": 4.1.0-48.8d8414deb360336e4698a65aa45a1fbaf1ce13d8
   peerDependencies:
@@ -48,7 +48,7 @@ __metadata:
   peerDependenciesMeta:
     prisma:
       optional: true
-  checksum: bd722305284c633f9c1f8c92efb4db47ab8d47ce12384ed75b99880333f017a69f5ce65d546b306a0fe3a21e9d068e287ce96b4421c7b657e5b1c949673f8179
+  checksum: 0251ebba98c5212e5d2fabfadac945c5977b6e48c1baeaa5d962cd2d486524304e14f320870df879c7cc83de2783d0dd3fee9c63bcdd300bd88d2b5f8f461ed0
   languageName: node
   linkType: hard
 
@@ -158,7 +158,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "prisma-todo@workspace:."
   dependencies:
-    "@prisma/client": ^4.1.0
+    "@prisma/client": ^4.1.1
     "@types/node": ^18.6.1
     prettier: ^2.7.1
     prisma: ^4.1.0
